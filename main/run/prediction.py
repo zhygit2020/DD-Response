@@ -22,7 +22,7 @@ from model.metrics import evaluate,reshape_tf2th,to_categorical
 from model.model import MultimapCNN, save_model, load_model
 from feamap import basemap
 from feamap import load_config
-from feamap.preparation import drug_data, cellline_data, relationship_data, des_from_smiles, fgp_from_smiles, split_data, to_dist_matrix
+from feamap.preparation import drug_data, cellline_data, relationship_data, des_from_smiles, fgp_from_smiles, geneprofile_from_local, split_data, to_dist_matrix
 import torch.nn.functional as F
 
 prj_path = Path(__file__).parent.resolve().parent.resolve()
@@ -79,8 +79,7 @@ class predict():
         id2idx_drug = {k:v for v,k in enumerate(ids)}
 
         for channel, (ftype, mp) in enumerate(zip(['geneprofile'],mp_c)):
-            fea_o = celllines
-            _bitsinfo = pd.DataFrame(fea_o.columns)
+            fea_o, _bitsinfo, _colormaps = geneprofile_from_local(celllines, feature_dict=None)
             fea_map, ids = mp.batch_transform(fea_o, scale=True, scale_method=self.params.scale_method)
             fea_cell.append(fea_map.astype("float32"))
             
