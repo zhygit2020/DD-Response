@@ -247,8 +247,10 @@ def plot_grid(molmap, htmlpath = './', htmlname = None):
     mp_colors = colormaps
     
     figsize_m, figsize_n = factor_int(len(channels))
+    
     fig, axes =  plt.subplots(figsize_m, figsize_n, figsize=(figsize_m, figsize_n))
-    axe = axes.ravel()
+    try: axe = axes.ravel()
+    except: axe = [axes]
     cbars = {}
     for i, channel in enumerate(channels):
         color = mp_colors[channel]
