@@ -66,18 +66,18 @@ The directory of `paper` deposits the necessary scripts for analyses in the pape
 sh 0_split_cvdata.sh		# data splitting for cross-validation
 ```
 ```
-sh 0_trans_cell.sh		# RGM representation transform for cell lines
-sh 0_trans_drug.sh		# RGM representation transform for drugs
+sh 0_trans_cell.sh		# SGM representation transform for cell lines
+sh 0_trans_drug.sh		# SGM representation transform for drugs
 ```
 ```
 sh DRS_molossbt128.sh	# model Training through cross-validation
 ```
 __Output:__ the output will be under the automatically generated `./main/data/processed_data` directory and `./main/pretrain_data/` directory.
 
-##### 1.3 If users want to reconstruct their own RGM template, Execute the following bash commands in the directory of `.main/bashes` before RGM representation transform: 
+##### 1.3 If users want to reconstruct their own SGM template, Execute the following bash commands in the directory of `.main/bashes` before SGM representation transform: 
 
 ```
-sh 0_feadist.sh		# calculate the scales as config files for RGM template construction
+sh 0_feadist.sh		# calculate the scales as config files for SGM template construction
 ```
 
 __Output:__ the output will be under the automatically generated `./main/data/processed_data` directory.
