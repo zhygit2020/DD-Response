@@ -1,6 +1,6 @@
 # <u>D</u>ecoding <u>D</u>rug <u>Response</u> (DD-Response) with Structurized Gridding Map (SGM)-based Cell Representation
 
-##### Jiayi Yin <sup>†</sup>, Hanyu Zhang <sup>†</sup>, Xiuna Sun, Nanxin You, Minjie Mou, Fengcheng Li , Ziqi Pan, Honglin Li<sup> * </sup>, Su Zeng<sup> * </sup>, and Feng Zhu<sup> * </sup>
+##### Jiayi Yin <sup>†</sup>, Hanyu Zhang <sup>†</sup>, Xiuna Sun, Nanxin You, Minjie Mou, Ziqi Pan, Fengcheng Li, Honglin Li<sup> * </sup>, Su Zeng<sup> * </sup>, and Feng Zhu<sup> * </sup>
 
 
 
