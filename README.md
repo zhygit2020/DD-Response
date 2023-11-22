@@ -1,6 +1,18 @@
-# <u>D</u>ecoding <u>D</u>rug <u>Response</u> (DD-Response) with Regulated Gridding Map (RGM)-based Cell Representation
+# <u>D</u>ecoding <u>D</u>rug <u>Response</u> (DD-Response) with Structurized Gridding Map (SGM)-based Cell Representation
 
-##### Jiayi Yin <sup>†</sup>, Hanyu Zhang <sup>†</sup>, Xiuna Sun, Nanxin You, Minjie Mou, Fengcheng Li, Honglin Li<sup> * </sup>, Su Zeng<sup> * </sup>, and Feng Zhu<sup> * </sup>
+##### Jiayi Yin <sup>†</sup>, Hanyu Zhang <sup>†</sup>, Xiuna Sun, Nanxin You, Minjie Mou, Fengcheng Li , Ziqi Pan, Honglin Li<sup> * </sup>, Su Zeng<sup> * </sup>, and Feng Zhu<sup> * </sup>
+
+
+
+## Graphic Abstract
+
+ [graphic_abstract](./paper/materials/graphic_abstract.png) 
+
+
+
+## Model Architecture
+
+ [model_architecture](./paper/materials/model_architecture.png) 
 
 
 
@@ -95,6 +107,8 @@ sh TCGA_modeling.sh		# model Training through cross-validation
 ```
 
 __Output:__ the output will be under the automatically generated `./main/transfer/data/processed_data` directory and `./main/transfer/pretrained` directory.
+
+
 
 ## Citation and Disclaimer
 
