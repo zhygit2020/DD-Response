@@ -56,7 +56,7 @@ The directory of `paper` deposits the necessary scripts for analyses in the pape
 
 ## Usage
 
-#### 1. To train a model
+#### 1. To train a customized model
 
 ##### 1.1 Place the training data that users want to investigate into the `.main/data/original_data/` imitating the examples. 
 
