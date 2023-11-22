@@ -6,13 +6,13 @@
 
 ## Graphic Abstract
 
- [graphic_abstract](./paper/materials/graphic_abstract.png) 
+ [graphic_abstract]![image](./paper/materials/graphic_abstract.png) 
 
 
 
 ## Model Architecture
 
- [model_architecture](./paper/materials/model_architecture.png) 
+ [model_architecture]![image](./paper/materials/model_architecture.png) 
 
 
 
