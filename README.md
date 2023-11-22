@@ -4,7 +4,7 @@
 
 
 
-## Graphic Abstract
+## DD-Response Framework
 
 ![image](./paper/materials/graphic_abstract.png) 
 
