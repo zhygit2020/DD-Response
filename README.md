@@ -43,14 +43,12 @@
      |- main.py
      |- tcga_main.py
  |- paper
-    |- interpretation
+    |- materials
  |- README.md
  |- LICENSE
 ```
 
-The directory of `main` deposits the basis of DD-Response, including source code and datasets. 
-
-The directory of `paper` deposits the necessary scripts for analyses in the paper.
+The directory of `main` deposits the basis of DD-Response. 
 
 
 
